@@ -1,4 +1,253 @@
 {
   "schemaVersion": 1,
-  "packages": []
+  "format": "knowledge-ndjson-gzip-v1",
+  "packages": [
+    {
+      "packageId": "bolid-access",
+      "packageVersion": "1",
+      "name": "Болид — контроль доступа",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 40,
+      "documentCount": 71,
+      "sectionCount": 8545,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-access/v1/package.ndjson.gz",
+      "compressedBytes": 2902772,
+      "uncompressedBytes": 16717485,
+      "sha256": "2236306325a5c8b3db5418818455470f9c16604a4343b2d21220fb3c0ccbd511"
+    },
+    {
+      "packageId": "bolid-archive",
+      "packageVersion": "1",
+      "name": "Болид — архивное оборудование",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 103,
+      "documentCount": 283,
+      "sectionCount": 19884,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-archive/v1/package.ndjson.gz",
+      "compressedBytes": 5850530,
+      "uncompressedBytes": 33647122,
+      "sha256": "84bbf63981e9df19be90ecb5ddf65591b11926e165e1ae34308500426d7918f7"
+    },
+    {
+      "packageId": "bolid-automation",
+      "packageVersion": "1",
+      "name": "Болид — автоматика, диспетчеризация и технологические системы",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 35,
+      "documentCount": 72,
+      "sectionCount": 4434,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-automation/v1/package.ndjson.gz",
+      "compressedBytes": 1200944,
+      "uncompressedBytes": 7141111,
+      "sha256": "68b79a27b8188542bc6d0843a23c493e87db9958c1fbd738589589044bbba3a3"
+    },
+    {
+      "packageId": "bolid-fire-protection",
+      "packageVersion": "1",
+      "name": "Болид — пожаротушение и противодымная вентиляция",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 68,
+      "documentCount": 165,
+      "sectionCount": 27838,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-fire-protection/v1/package.ndjson.gz",
+      "compressedBytes": 8619974,
+      "uncompressedBytes": 53585785,
+      "sha256": "dbb4a98230f12ea48c73e63a3cdece3ed05d0f51e413aa23939a6ea489cdec81"
+    },
+    {
+      "packageId": "bolid-fire",
+      "packageVersion": "1",
+      "name": "Болид — пожарная сигнализация",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 65,
+      "documentCount": 192,
+      "sectionCount": 21766,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-fire/v1/package.ndjson.gz",
+      "compressedBytes": 5364416,
+      "uncompressedBytes": 32865414,
+      "sha256": "4b9d5d8f3ec247beab364b249d154264f51023250c39ac9d3cfcb7dba91db995"
+    },
+    {
+      "packageId": "bolid-hazardous-areas",
+      "packageVersion": "1",
+      "name": "Болид — оборудование для взрывоопасных зон",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 31,
+      "documentCount": 38,
+      "sectionCount": 1376,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-hazardous-areas/v1/package.ndjson.gz",
+      "compressedBytes": 414998,
+      "uncompressedBytes": 2436802,
+      "sha256": "89d4d648aa3d77515bcda012901ed069a550a90958443dcfaf4c7f180e00197d"
+    },
+    {
+      "packageId": "bolid-notification",
+      "packageVersion": "1",
+      "name": "Болид — оповещение",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 24,
+      "documentCount": 41,
+      "sectionCount": 2306,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-notification/v1/package.ndjson.gz",
+      "compressedBytes": 800444,
+      "uncompressedBytes": 4320415,
+      "sha256": "9bc838fcef749aec0945c1f4ab977859d2280cd8c53c90a3181092261d269e87"
+    },
+    {
+      "packageId": "bolid-other",
+      "packageVersion": "1",
+      "name": "Болид — прочее оборудование каталога",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 60,
+      "documentCount": 89,
+      "sectionCount": 4429,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-other/v1/package.ndjson.gz",
+      "compressedBytes": 925315,
+      "uncompressedBytes": 5353193,
+      "sha256": "e63ae4bf2b03f6de57e954c276468f3cd5333165790fe0218456b747694ec88c"
+    },
+    {
+      "packageId": "bolid-power-infrastructure",
+      "packageVersion": "1",
+      "name": "Болид — питание и каналообразующее оборудование",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 99,
+      "documentCount": 223,
+      "sectionCount": 13966,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-power-infrastructure/v1/package.ndjson.gz",
+      "compressedBytes": 3030139,
+      "uncompressedBytes": 17574697,
+      "sha256": "71573488c065e60edc69e804366f90da821e5070f724d5544d8d98e65be31522"
+    },
+    {
+      "packageId": "bolid-security",
+      "packageVersion": "1",
+      "name": "Болид — охранная и централизованная охрана",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 61,
+      "documentCount": 132,
+      "sectionCount": 11827,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-security/v1/package.ndjson.gz",
+      "compressedBytes": 3398388,
+      "uncompressedBytes": 20015441,
+      "sha256": "baa9008c496e82f3164631224753266ce15a48f13e010efb8b20d955178a81e4"
+    },
+    {
+      "packageId": "bolid",
+      "packageVersion": "1",
+      "name": "Официальная документация Болид",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 3,
+      "documentCount": 3,
+      "sectionCount": 811,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid/v1/package.ndjson.gz",
+      "compressedBytes": 308323,
+      "uncompressedBytes": 1640436,
+      "sha256": "53df5b38bc667ac05da6d490cbfcf74dfd81c67a0606414dadf2d23b68279893"
+    },
+    {
+      "packageId": "bolid-video",
+      "packageVersion": "1",
+      "name": "Болид — видеонаблюдение",
+      "manufacturer": {
+        "id": "m-bolid",
+        "name": "Болид",
+        "officialDomain": "bolid.ru"
+      },
+      "modelCount": 256,
+      "documentCount": 754,
+      "sectionCount": 53048,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/bolid-video/v1/package.ndjson.gz",
+      "compressedBytes": 17158455,
+      "uncompressedBytes": 97583319,
+      "sha256": "218ff92ed1b64b027ca21aae20a5ff8bbd39003c8df3cf55e2a5276bca921b4a"
+    },
+    {
+      "packageId": "rubezh",
+      "packageVersion": "1",
+      "name": "Официальная документация Рубеж",
+      "manufacturer": {
+        "id": "m-rubezh-official",
+        "name": "Рубеж",
+        "officialDomain": "products.rubezh.ru"
+      },
+      "modelCount": 3,
+      "documentCount": 3,
+      "sectionCount": 427,
+      "schemaVersion": 1,
+      "format": "knowledge-ndjson-gzip-v1",
+      "path": "packages/rubezh/v1/package.ndjson.gz",
+      "compressedBytes": 162311,
+      "uncompressedBytes": 835629,
+      "sha256": "fcd35bb6f443c15364a2cab5141e65336111fe73c698f812b7a48580f39e0fc8"
+    }
+  ]
 }
